@@ -1,0 +1,347 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    gap: 0px 20px;
+}
+
+.right {
+    padding: 0px 20px;
+}
+
+.background {
+    width: 100%;
+    height: 504px;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+#it {
+    font-size: 43px;
+}
+
+.size {
+    font-size: 15px;
+}
+
+#q {
+    font-size: 13px;
+}
+
+.design {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+#cherniy {
+    color: #000000;
+    font-size: 43px;
+}
+
+#seriy {
+    color: #A0A0A0;
+    font-size: 14px;
+}
+
+#started {
+    color: 13px;
+    font-size: #000000;
+}
+
+.compi {
+    display: flex;
+    padding: 20px 40px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#clas {
+    font-size: 27px;
+}
+
+#learn {
+    font-size: 13px;
+}
+
+.prosto {
+    width: 100%;
+    max-width: 1920px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.texti {
+    align-items: center;
+    text-align: center;
+}
+
+.feature {
+    font-size: 33px;
+}
+
+.see {
+    color: #A0A0A0;
+    font-size: 15px;
+}
+
+.elements {
+    display: flex;
+    gap: 25px;
+    padding: 20px 130px;
+    width: 100%;
+    max-width: 1920px;
+    color: #A0A0A0;
+    margin: 0 auto;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+}
+
+.home {
+    font-size: 66px;
+}
+
+.working {
+    font-size: 14px;
+}
+
+.Background {
+    background-image: url(./background2.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 504px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.make {
+    font-size: 34px;
+    color: #000000;
+}
+
+.were {
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.centre {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1920px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.black {
+    font-size: 34px;
+}
+
+.gray {
+    font-size: 13px;
+}
+
+.neznayu {
+    font-size: 43px;
+}
+
+.prosto {
+    font-size: 14px;
+}
+
+.xz {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1920px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #9AA8B1;
+    padding: 100px 0px;
+    color: #FFFFFF;
+}
+
+.cart {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.up {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: end;
+    max-width: 1920px;
+}
+
+.left-kones {
+    font-size: 24px;
+}
+
+.konsovka {
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.centre-kones {
+    width: 348px;
+}
+
+.w {
+    font-size: 22px;
+}
+
+.e {
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.r {
+    color: #707A7F;
+    font-size: 13px;
+}
+
+.a {
+    color: black;
+    font-size: 13px;
+}
+
+.footer {
+    gap: 20px;
+    width: 100%;
+    max-width: 1920px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 350px) {
+    .header {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    #it {
+        font-size: 10px;
+    }
+
+    .background {
+        height: 200px;
+        width: 360px;
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .left {
+        font-size: 10px;
+    }
+
+    .right {
+        font-size: 10px;
+    }
+
+    .cherniy {
+        font-size: 15px;
+    }
+
+    .compi {
+        gap: 20px;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .comp {
+        width: 100%;
+        max-width: 100px;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.centre1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.create img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px 0px;
+}
